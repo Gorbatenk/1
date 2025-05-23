@@ -5,8 +5,8 @@ $error = null;
 if (isset($_GET['search']) && !empty($_GET['search'])) {
     $search = urlencode($_GET['search']);
 
-    $apiKey = "AIzaSyCnrnhsR8LMs6qJtO7L3M0M6LB2pMC5ZzU";
-    $cx = "017576662512468239146:omuauf_lfve";
+    $apiKey = "AIzaSyCvUVTJsalca_YsBIhbB2nR-FLYEJavmnI";
+    $cx = "e0b6afe431c814802";
 
     $url = "https://www.googleapis.com/customsearch/v1?key=$apiKey&cx=$cx&q=$search";
 
